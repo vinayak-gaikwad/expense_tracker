@@ -1,0 +1,24 @@
+.balance {
+    display: flex;
+    /* align-self: flex-start; */
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+}
+.balance h3{
+    padding-bottom: 8px;
+}
+.block { 
+    display:flex;
+  
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.inc {
+    color: rgb(57, 243, 51);
+}
+
+.exp {
+    color: rgb(252, 81, 81);
+}
+

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.bal {
+  display: flex;
+  justify-content: center;
+  align-self: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px 0px;
+  border-right: 1px solid grey;
+  
+}
+
+.his {
+  display: flex;
+  justify-content: center;
+  align-self: start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+  
+  
+}
