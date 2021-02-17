@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+ 
 }
 .container{
   display: flex;
@@ -8,6 +8,7 @@
   flex-direction: row;
   margin: 20px 0px;
   flex-wrap: wrap;
+  
 }
 
 ul {

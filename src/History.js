@@ -8,7 +8,7 @@ function History({ id, text, amount, removeHistory, dclass, date }) {
         {text} <span> &#x20b9; {amount}</span> <span>{date}</span> <button title='Delete' className='btn' onClick={removeHistory}>X</button>
       </li>
     
-  );
+  );  
 }
 
 export default History;

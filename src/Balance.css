@@ -4,21 +4,27 @@
     justify-content: center;
     flex-direction: column;
     width: 350px;
+    border-radius: 7px;
+    background: #ffffff;
+    box-shadow: 10px 10px 20px #d4d4d4, -10px -10px 20px #ffffff;
+    padding: 10px;
 }
-.balance h3{
+.balance h3 {
+    width: 90%;
     padding-bottom: 8px;
 }
-.block { 
-    display:flex;
-  
+.block {
+    display: flex;
+
     justify-content: space-between;
     margin-top: 8px;
 }
 .inc {
     color: rgb(57, 243, 51);
+    
 }
 
 .exp {
     color: rgb(252, 81, 81);
+    
 }
-

@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  /* margin: 0; */
   box-sizing: border-box;
 
 }
@@ -9,10 +9,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
+  display: flex ;
   justify-content: center;
-  background-color: rgb(243, 243, 243);
-}
+  align-content: center;
+ 
+  border-radius: 50px;
+  background: white;
+  
+  
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
